@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta author="Nabijon Ibodullaev" />
+    <meta name="description" content="Food Network" />
+    <meta name="keywords" content="Html, Css, Javascript, Bootstrap" />
+    <link href="http://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet" />
+    <link href="http://fonts.cdnfonts.com/css/circular-std" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/main.css" />
+    <script>
+      $(window).on('load', function () {
+        $('#loading').hide()
+      })
+    </script>
+    <title>F.Palace</title>
+  </head>
+  <body>
+    <div id="loading">
+      <div id="loading-image">
+        <div
+          class="spinner-border position-absolute top-50 start-50"
+          role="status"
+        >
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </div>
+    </div>
+    <!-- Home -->
+
+    <div class="container home-bg">
+      <nav class="navbar navbar-expand-xxl py-4">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="assets/brand/brand.svg" class="img-fluid" alt="brand" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars-staggered"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#recipes">Recipes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#download">Download</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Home -->
+      <div class="row" id="home">
+        <div
+          class="col-md-4 d-flex align-items-center px-4"
+          data-aos="fade-up"
+          data-aos-duration="900"
+        >
+          <div class="home">
+            <h2 class="category py-3">_ Restaurant</h2>
+            <img
+              src="assets/home/text.svg"
+              class="img-fluid home-text"
+              alt=""
+            />
+            <p class="py-4 main-text">
+              The food palace is an neighborhood restaurent serving seasonal
+              global cuisine driven by the faire.
+            </p>
+            <button class="btn main-btn px-4 py-2">Explore food menu</button>
+            <div class="text-start">
+              <img
+                src="assets/home/social.svg"
+                class="img-fluid"
+                alt="social"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          data-aos="fade-down"
+          data-aos-duration="1200"
+          class="col-md-8 text-center d-flex align-items-center justify-content-center"
+        >
+          <img
+            src="assets/home/food.svg"
+            alt="food"
+            class="img-fluid home-img"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- *************************** About Us ******************************** -->
+    <section id="about">
+      <div class="container-fluid main-gradient">
+        <div class="row">
+          <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000">
+            <img src="assets/about/main.svg" class="img-fluid" alt="" />
+          </div>
+          <div
+            data-aos="fade-down"
+            data-aos-duration="1400"
+            class="col-md-4 d-flex align-items-center justify-content-center"
+          >
+            <div>
+              <div class="text-start">
+                <p class="category">About us</p>
+                <h3 class="main-h1">
+                  Simple Way of Eating Delicious
+                </h3>
+              </div>
+              <p class="main-text py-3">
+                There are many things are needed to start the Fast Food
+                Business. You need not only Just Food Stalls with Persons but
+                also equipment make your marketing plane Effective.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features">
+      <div class="container-fluid features-bg">
+        <div class="text-center">
+          <p class="category">Features</p>
+          <h3 class="main-h1">
+            Our Awesome Services
+          </h3>
+        </div>
+        <div class="container py-5">
+          <div class="row">
+            <div
+              class="col-md-4 text-center"
+              data-aos="fade-up"
+              data-aos-duration="900"
+            >
+              <img src="assets/features/1.svg" class="img-fluid" alt="1" />
+              <h2 class="main-h2">Quality Food</h2>
+              <p class="text">
+                Keep healthy food readily
+                <br />
+                available. When you get
+                <br />
+                hungry, you’re more likely to
+              </p>
+            </div>
+            <div
+              class="col-md-4 text-center"
+              data-aos="fade-down"
+              data-aos-duration="1200"
+            >
+              <img src="assets/features/2.svg" class="img-fluid" alt="2" />
+              <h2 class="main-h2">Super Taste</h2>
+              <p class="text">
+                Keep healthy food readily
+                <br />
+                available. When you get
+                <br />
+                hungry, you’re more likely to
+              </p>
+            </div>
+            <div
+              class="col-md-4 text-center"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
+              <img src="assets/features/3.svg" class="img-fluid" alt="1" />
+              <h2 class="main-h2">Fast Delivery</h2>
+              <p class="text">
+                Keep healthy food readily
+                <br />
+                available. When you get
+                <br />
+                hungry, you’re more likely to
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="recipes">
+      <div class="container-fluid main-gradient py-5">
+        <div class="text-center">
+          <p class="category">Recipes</p>
+          <h3 class="main-h1">
+            Most Popular Items
+          </h3>
+        </div>
+        <!-- Card -->
+        <div class="container">
+          <div
+            class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-3 g-4 pb-5"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
+            <!-- 1 -->
+            <div class="col">
+              <div class="py-4 text-center main-card">
+                <img src="assets/recipes/1.svg" class="img-fluid" alt="1" />
+                <div
+                  class="d-flex align-items-center justify-content-between px-3"
+                >
+                  <h2 class="main-h2">Flame-boiled dish</h2>
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    8.5
+                  </div>
+                </div>
+                <div
+                  class="d-flex align-items-center justify-content-between px-3"
+                >
+                  <button class="btn btn-sm btn-outline-secondary opacity-50">
+                    ADD TO CART
+                  </button>
+                  <div class="main-color">
+                    $ 19.99
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="col">
+              <div class="px-3 py-4 text-center main-card">
+                <img src="assets/recipes/2.svg" class="img-fluid" alt="1" />
+                <div
+                  class="d-flex align-items-center justify-content-between px-3"
+                >
+                  <h2 class="main-h2">Flame-boiled dish</h2>
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    8.5
+                  </div>
+                </div>
+                <div
+                  class="d-flex align-items-center justify-content-between px-3"
+                >
+                  <button class="btn btn-sm btn-outline-secondary opacity-50">
+                    ADD TO CART
+                  </button>
+                  <div class="main-color">
+                    $ 19.99
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div class="col">
+              <div class="px-3 py-4 text-center main-card">
+                <img src="assets/recipes/3.svg" class="img-fluid" alt="1" />
+                <div
+                  class="d-flex align-items-center justify-content-between px-3"
+                >
+                  <h2 class="main-h2">Flame-boiled dish</h2>
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    8.5
+                  </div>
+                </div>
+                <div
+                  class="d-flex align-items-center justify-content-between px-3"
+                >
+                  <button class="btn btn-sm btn-outline-secondary opacity-50">
+                    ADD TO CART
+                  </button>
+                  <div class="main-color">
+                    $ 19.99
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <button class="btn main-btn px-4 py-2">See more recipes</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="download">
+      <div class="container-fluid py-5 app-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6" data-aos="fade-up" data-aos-duration="900">
+              <img src="assets/app/main.svg" class="img-fluid" alt="main" />
+            </div>
+            <div
+              class="col-md-6 d-flex align-items-center"
+              data-aos="fade-down"
+              data-aos-duration="1200"
+            >
+              <div>
+                <div class="text-start">
+                  <p class="category">Take away</p>
+                  <h3 class="main-h1">
+                    Simple Way To Order Your Food
+                  </h3>
+                </div>
+                <p class="main-text py-3">
+                  Keep healthy food readily available. When you
+                  <br />
+                  get hungry, you’re more likely to eat the first
+                  <br />
+                  thing you see on the counter or in the cupboard.
+                </p>
+                <div class="btn-group">
+                  <button class="btn btn-outline-dark">
+                    <i class="fa-brands fa-apple"></i>
+                    Apple Store
+                  </button>
+                  &nbsp; &nbsp;
+                  <button class="btn btn-outline-dark">
+                    <i class="fa-brands fa-google-play"></i>
+                    Google Play
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonial">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-6" data-aos="fade-up" data-aos-duration="900">
+            <div class="text-center">
+              <p class="category">Testimonial</p>
+              <h3 class="main-h1">
+                That’s what our Client Says
+              </h3>
+              <!-- Carousel wrapper -->
+              <div
+                id="carouselBasicExample"
+                class="carousel slide carousel-dark"
+                data-bs-ride="carousel"
+              >
+                <!-- Inner -->
+                <div class="carousel-inner">
+                  <!-- Single item -->
+                  <div class="carousel-item active">
+                    <p class="lead font-italic mx-4 mx-md-5 text-start">
+                      “Food palace is an awesome place. Food is everything we
+                      are. It’s an extension of nationalist feeling, ethnic
+                      feeling, your personal history, your province”
+                    </p>
+                    <div class="mt-5 mb-4">
+                      <img
+                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                        class="rounded-circle img-fluid shadow-1-strong"
+                        alt="smaple image"
+                        width="100"
+                        height="100"
+                      />
+                    </div>
+                    <p class="text-muted mb-0">- Anna Morian</p>
+                  </div>
+
+                  <!-- Single item -->
+                  <div class="carousel-item">
+                    <p class="lead font-italic mx-4 mx-md-5 text-start">
+                      “Food palace is an awesome place. Food is everything we
+                      are. It’s an extension of nationalist feeling, ethnic
+                      feeling, your personal history, your province”
+                    </p>
+                    <div class="mt-5 mb-4">
+                      <img
+                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(31).webp"
+                        class="rounded-circle img-fluid shadow-1-strong"
+                        alt="smaple image"
+                        width="100"
+                        height="100"
+                      />
+                    </div>
+                    <p class="text-muted mb-0">- Teresa May</p>
+                  </div>
+
+                  <!-- Single item -->
+                  <div class="carousel-item">
+                    <p class="lead font-italic mx-4 mx-md-5 text-start">
+                      “Food palace is an awesome place. Food is everything we
+                      are. It’s an extension of nationalist feeling, ethnic
+                      feeling, your personal history, your province”
+                    </p>
+                    <div class="mt-5 mb-4">
+                      <img
+                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
+                        class="rounded-circle img-fluid shadow-1-strong"
+                        alt="smaple image"
+                        width="100"
+                        height="100"
+                      />
+                    </div>
+                    <p class="text-muted mb-0">- Kate Allise</p>
+                  </div>
+                </div>
+                <!-- Inner -->
+
+                <!-- Controls -->
+
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselBasicExample"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselBasicExample"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <!-- Carousel wrapper -->
+            </div>
+          </div>
+          <div class="col-md-6" data-aos="fade-down" data-aos-duration="1200">
+            <img src="assets/testimonial/main.svg" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- *************************** Footer ******************************** -->
+    <!-- Footer -->
+    <footer id="footer" class="text-center text-lg-start py-5 main-gradient">
+      <div class="container text-center text-md-start py-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <img src="assets/brand/brand.svg" class="img-fluid" alt="" />
+            </h6>
+            <p class="main-text-footer">
+              www.company name.com
+            </p>
+            <p class="main-text-footer">
+              companyname@gmail.com
+            </p>
+            <p class="main-text-footer">
+              Phone: +7 485-118-03-25
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4 main-font main-dark">
+              Home
+            </h6>
+            <p class="main-text-footer">
+              Landingpage
+            </p>
+            <p class="main-text-footer">
+              Documentation
+            </p>
+            <p class="main-text-footer">
+              Referral Program
+            </p>
+            <p class="main-text-footer">
+              UI & UX Design
+            </p>
+            <p class="main-text-footer">
+              Web Design
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4 main-font main-dark">
+              Menu
+            </h6>
+            <p class="main-text-footer">
+              Landingpage
+            </p>
+            <p class="main-text-footer">
+              Documentation
+            </p>
+            <p class="main-text-footer">
+              Referral Program
+            </p>
+            <p class="main-text-footer">
+              UI & UX Design
+            </p>
+            <p class="main-text-footer">
+              Web Design
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4 main-font main-dark">
+              Company
+            </h6>
+            <p class="main-text-footer">
+              Landingpage
+            </p>
+            <p class="main-text-footer">
+              Documentation
+            </p>
+            <p class="main-text-footer">
+              Referral Program
+            </p>
+            <div
+              class="d-flex align-items-center justify-content-center justify-content-md-start"
+            >
+              <a href="#">
+                <img
+                  src="assets/social-media/instagram.svg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </a>
+              &nbsp; &nbsp;
+              <a href="#">
+                <img
+                  src="assets/social-media//facebook.svg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </a>
+              &nbsp; &nbsp;
+              <a href="#">
+                <img
+                  src="assets/social-media/twitter.svg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </a>
+              &nbsp; &nbsp;
+              <a href="#">
+                <img
+                  src="assets/social-media/youtobe.svg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </footer>
+    <!-- Footer -->
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init()
+  </script>
+  <script>
+    $('.navbar-collapse a').click(function () {
+      $('.navbar-collapse').collapse('hide')
+    })
+  </script>
+</html>
